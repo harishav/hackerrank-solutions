@@ -1,3 +1,4 @@
+package com.hackerrank.mathematics;
 import java.util.Scanner;
 
 /**
