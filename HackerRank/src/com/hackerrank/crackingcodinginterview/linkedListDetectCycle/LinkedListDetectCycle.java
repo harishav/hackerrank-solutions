@@ -18,9 +18,15 @@ public class LinkedListDetectCycle {
 		linkedList.head.next = new Node(20);
 		linkedList.head.next.next = new Node(30);
 		linkedList.head.next.next.next = new Node(40);
-		linkedList.head.next.next.next = linkedList.head.next;
+		linkedList.head.next.next.next.next = linkedList.head.next;
 		
 		System.out.println(linkedList.hasCycle(linkedList.head));
+
+		Node current = linkedList.head;
+		do {
+			System.out.println(current.data);
+			current = current.next;
+		} while (current!=null);
 		
 	}
 
