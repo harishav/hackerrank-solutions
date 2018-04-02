@@ -1,7 +1,16 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Solution {
+/**
+ * Solution for Strange Grid Again from hacker rank.
+ * 
+ * Category - Maths Fundamentals
+ * 
+ * {@link https://www.hackerrank.com/challenges/strange-grid/problem}
+ * 
+ * @author harishav
+ *
+ */
+public class Strange_Grid_Again {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
