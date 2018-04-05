@@ -32,8 +32,9 @@ public class LinkedList {
 		return false;
 	}
 
+	//Using Floyd’s Cycle detection algorithm
 	//Use two nodes, one is slow and the other fast moving twice the speed of slow.
-	public boolean yetAnotherWay(Node head) {
+	public boolean floydsCycleDet(Node head) {
 		
 		Node slowNode = head;
 		Node fastNode = head;
